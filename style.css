@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.IMAGE{
+    /* margin: ; */
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+}
+.center_part{
+  align-self: center;
+  text-align: center;
+}
