@@ -1,1 +1,40 @@
 @import url(style.css);
+
+.butto{
+    margin-left: 60px;
+    margin-top: 10px;
+    
+}
+/* @media only screen and (max-width: 500px) {
+     body{
+        background-image: url(./download.png);
+        /* background-image:url(./jessica-lewis-fJXv46LT7Xk-unsplash.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 100%  00px ;
+        width: 400px;
+        height: 1000px; */
+    /* }
+
+
+} */ 
+.admin_pasworrd{
+    /* padding: 10px; */
+    background-color: transparent;
+    border-color: #07dbf7;
+    border-radius: 5px;
+    color: #666;
+
+}
+.admin_email{
+    background-color: transparent;
+    border-color: #07dbf7;
+    border-radius: 5px;
+    color: #666;
+
+}
+.Password{
+    color: #0d6db7 !important;
+}
+.Email{
+    color: #0d6db7 !important;
+}
