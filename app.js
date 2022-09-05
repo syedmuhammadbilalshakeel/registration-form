@@ -23,10 +23,10 @@ function signIN() {
     }
 }
 
-// console.log(signIN());
-
-
-
-// if(Email === ){
-
-// }
+// if (fullNameRegix === true) {
+//     fullName.style.border = "2px solid red";
+//     span.innerHTML = "Name must be filled out";
+// // }
+// let fullName = document.getElementById("fullName");
+//     let span = document.getElementById("span");
+//     let fullNameRegix = /^\s*$/.test(fullName.value);
