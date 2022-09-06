@@ -42,7 +42,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <!-- <div class="col-6">
                 <div class="form">
 
                     <form action="">
@@ -53,11 +53,11 @@
                     </form>
                     
                 </div>
-            </div>
+            </div> -->
 
 
-            
-            <div class="col-6">
+
+            <!-- <div class="col-6">
                 <div class="form1">
                     <form action="">
                         <label for="" class="write">
@@ -67,18 +67,20 @@
                     </form>
                     
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-6">
                 <div class="form">
 
                     <form action="">
-                        <label for="" class="write">
+                        <label for="#" class="write">
                             Full name
                         </label> <br>
-                        <input type="text" placeholder="Full name" class="input_text_1" name="" id="name">
+                        <input type="text" required="required" placeholder="Full name" class="input_text_1" name=""
+                            id="name"><br>
+                        <span id="span1"></span>
                     </form>
-                    
+
                 </div>
             </div>
             <div class="col-6">
@@ -88,9 +90,10 @@
                         <label for="" class="write">
                             Father name
                         </label> <br>
-                        <input type="text" placeholder="father name"  name="" class="input_text" id="father">
+                        <input type="text" placeholder="father name" name="" class="input_text" id="father"><br>
+                        <span id="span2"></span>
                     </form>
-                    
+
                 </div>
             </div>
             <div class="col-6">
@@ -100,9 +103,12 @@
                         <label for="" class="write">
                             Email
                         </label> <br>
+
                         <input type="email" placeholder="email" class="input_text_1" name="" id="emailOfStudent">
+                        <br>
+                        <span id="span3"></span>
                     </form>
-                    
+
                 </div>
             </div>
             <div class="col-6">
@@ -113,8 +119,10 @@
                             phone no
                         </label> <br>
                         <input type="number" name="" placeholder="phone no" class="input_text" id="number">
+                        <br>
                     </form>
-                    
+                    <span id="span4"></span>
+
                 </div>
             </div>
             <div class="col-6">
@@ -122,11 +130,13 @@
 
                     <form action="">
                         <label for="" class="write">
-                         CNIC
+                            CNIC
                         </label> <br>
                         <input type="number" placeholder="CNIC no" class="input_text_1" name="" id="CNIC_NO">
+                        <br>
+                        <span id="span5"></span>
                     </form>
-                    
+
                 </div>
             </div>
             <div class="col-6">
@@ -134,26 +144,30 @@
 
                     <form action="">
                         <label for="" class="write">
-                        Father CNIC
+                            Father CNIC
                         </label> <br>
                         <input type="text" placeholder="Father CNIC" name="" class="input_text" id="father_CNIC_no">
+                        <br>
+                        <span id="span6"></span>
                     </form>
-                    
+
                 </div>
             </div>
             <br>
             <div class="col-6">
-    
+
                 <div class="form">
 
                     <form action="">
-                        
+
                         <label for="" class="write">
                             Date of birth
                         </label> <br>
                         <input type="date" placeholder="date of birth" class="input_text_1" name="" id="Date_of_birth">
+                        <br>
+                        <span id="span7"></span>
                     </form>
-                    
+
                 </div>
             </div>
 
@@ -161,61 +175,81 @@
 
             <div class="col-6">
                 <div class="form1">
-                <form action="">
+                    <form action="">
+                        <label for="" class="write">
+                            perment Address
+                        </label> <br>
+                        <input type="text" name="" placeholder="enter the gender" id="permentAddress" class="input_text">
+                        <br>
+                        <span id="span 8">
+
+                        </span>
+                        <!-- <form onSubmit="return checkForSelection();">
+                        <select id="states">
+                        <option value="" selected="selected">
+                        SELECT A STATE</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        </select>&nbsp;&nbsp;
+                        <input type="submit" value="Submit Form">
+                        </form>
+                         -->
+                    </form>
+                </div>
+            </div>
+            <br>
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="address">
                     <label for="" class="write">
-                        Gender
-                    </label> <br>
-                    <input type="text" name="" placeholder="enter the gender" id="gender" class="input_text">
-                </form>
+                        Address
+                    </label>
+                    <br>
+                    <input class="represend_the_address_feild" type="text" placeholder="address" name="" id="address">
+                    <br>
+                    <span id="span 9">
+
+                    </span>
+                </div>
             </div>
-            </div>
-            <br>
 
-
-
-
-
-
-
-
-
-        </div>   
-
-    </div>   
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="address">
-            <label for="" class="write">
-                Address
-            </label>
-            <br>
-            <input class="represend_the_address_feild" type="text" placeholder="address" name="" id="address">
         </div>
+
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <div class="d-grid gap-2 bu">
+                    <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                    <button class="btn btn-primary"  type="button"  onclick="submit()">SUBMIT</button>
+                </div>
+            </div>
         </div>
 
     </div>
 
-</div>
-<br>
-
-<div class="container">
-    <div class="row">
-        <div class="col">
-      
-            <div class="d-grid gap-2 bu">
-                <!-- <button class="btn btn-primary" type="button">Button</button> -->
-                <button class="btn btn-primary" type="button" onclick="submit()">SUBMIT</button>
-              </div>
-        </div>
-    </div>
-
-</div>
-
-<br><br>
+    <br><br>
     <!-- <div class="container">
         <div class="row">
             <div class="col-6">
@@ -256,7 +290,8 @@
 
 
             </div> -->
-            <script src="new.js"></script>
+    <script src="new.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>

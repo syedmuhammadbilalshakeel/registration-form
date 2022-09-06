@@ -80,10 +80,10 @@ body {
     color: #0d6db7 !important;
 }
 
-.col-6 {
+/* .col-6 {
     display: flex;
     align-content: space-between;
-}
+} */
 
 .address {
     margin-left: 80px;
@@ -151,4 +151,67 @@ body {
 } */
 /* body{
     background-image:url(./jessica-lewis-fJXv46LT7Xk-unsplash.jpg) ;
-} */
+/* } */
+ /* #span1 {
+    position: relative;
+    top: 0px;
+    left: 100px;
+    color: red;
+}
+#span2 {
+    position: relative;
+    top: 0px;
+    left: 90px;
+    color: red;
+}
+#span3{
+    color: red;
+    position: relative;
+    top: 0px;
+    left: 90px;
+    color: red; */ 
+
+  /* margin-top: 1000px; */
+  /* margin-left: 90px; */
+/* width: 10px;
+height: 10px; */
+/* } */
+/* 
+#span4 {
+    position: relative;
+    top: 0px;
+    left: 100px;
+    color: red;
+}
+
+#span5 {
+    color: red;
+}
+
+#span6 {
+    position: relative;
+    top: 90px;
+    left: 100px;
+    color: red;
+}
+
+#span7 {
+    position: relative;
+    top: 0px;
+    left: 100px;
+    color: red;
+}
+#span8 {
+    position: relative;
+    top: 0px;
+    left: 100px;
+    color: red;
+}
+#span9 {
+    position: relative;
+    top: 0px;
+    left: 100px;
+    color: red;
+ } */
+
+
