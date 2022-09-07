@@ -22,6 +22,9 @@ function submit() {
     var CNIC_NO1 = document.getElementById("CNIC_NO");
     var span5 = document.getElementById("span2");
     var cnicRegix = /^[0-9]{5}-[0-9]{7}-[0-9]$/.test(CNIC_NO1.value);
+console.log(cnicRegix)
+
+
 
     var father_CNIC_no1 = document.getElementById("father_CNIC_no");
     var span6 = document.getElementById("span2");
@@ -41,21 +44,21 @@ function submit() {
 
 
 
-    var data;
-    arr.push(
-        data = {
-            Name: name1.value,
-            fathername: father1.value,
-            fatherCnic: father_CNIC_no1.value,
-            Address1: permentAddress.value,
-            Address2: address1.value,
-            Phone: number1.value,
-            CNIC: CNIC_NO1.value,
-            Dateofbirth: Date_of_birth1.value,
-            Email: emailOfStudent1.value
+//     var data;
+//     arr.push(
+//         data = {
+//             Name: name1.value,
+//             fathername: father1.value,
+//             fatherCnic: father_CNIC_no1.value,
+//             Address1: permentAddress.value,
+//             Address2: address1.value,
+//             Phone: number1.value,
+//             CNIC: CNIC_NO1.value,
+//             Dateofbirth: Date_of_birth1.value,
+//             Email: emailOfStudent1.value
 
-        });
-localStorage.setItem(JSON.stringify(arr));
+//         });
+// localStorage.setItem("table"(JSON.stringify(arr)));
 
 
     if (fullNameRegix === true) {
